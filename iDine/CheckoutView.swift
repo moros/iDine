@@ -14,6 +14,7 @@ struct CheckoutView: View
     @State private var addLoyaltyDetails = false
     @State private var loyaltyNumber = ""
     @State private var tipAmount = 1
+    @State private var pickupTime = 0
     @State private var showingPaymentAlert = false
     @EnvironmentObject var order: Order
     
@@ -30,6 +31,12 @@ struct CheckoutView: View
         "Cash",
         "Credit Card",
         "iDine Points"
+    ]
+    
+    static let pickupTimes = [
+        "Now",
+        "Tonight",
+        "Tomorrow"
     ]
     
     var body: some View {
@@ -54,6 +61,14 @@ struct CheckoutView: View
                 Picker("Percentage:", selection: $tipAmount) {
                     ForEach(0 ..< Self.tipAmounts.count) {
                         Text("\(Self.tipAmounts[$0])%")
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
+            }
+            
+            Section(header: Text("Pickup Time")) {
+                Picker("Pickup", selection: $pickupTime) {
+                    ForEach(0 ..< Self.pickupTimes.count) {
+                        Text("\(Self.pickupTimes[$0])")
                     }
                 }.pickerStyle(SegmentedPickerStyle())
             }
