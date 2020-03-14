@@ -23,6 +23,7 @@
 		71787B3C241BBFA900D25F88 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787B3B241BBFA900D25F88 /* ItemDetail.swift */; };
 		71787B3E241C26FA00D25F88 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787B3D241C26FA00D25F88 /* OrderView.swift */; };
 		71787B40241C280900D25F88 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787B3F241C280900D25F88 /* AppView.swift */; };
+		71787B42241C2A6700D25F88 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787B41241C2A6700D25F88 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		71787B3B241BBFA900D25F88 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		71787B3D241C26FA00D25F88 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		71787B3F241C280900D25F88 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		71787B41241C2A6700D25F88 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				7125CF86241AB10D00CDB1A1 /* AppDelegate.swift */,
 				7125CF88241AB10D00CDB1A1 /* SceneDelegate.swift */,
+				71787B41241C2A6700D25F88 /* CheckoutView.swift */,
 				7125CF8A241AB10D00CDB1A1 /* ContentView.swift */,
 				71787B3B241BBFA900D25F88 /* ItemDetail.swift */,
 				71787B3D241C26FA00D25F88 /* OrderView.swift */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7125CFBB241AB18700CDB1A1 /* Menu.swift in Sources */,
+				71787B42241C2A6700D25F88 /* CheckoutView.swift in Sources */,
 				7125CF87241AB10D00CDB1A1 /* AppDelegate.swift in Sources */,
 				7125CF89241AB10D00CDB1A1 /* SceneDelegate.swift in Sources */,
 				7125CFC1241ABD2200CDB1A1 /* ItemRow.swift in Sources */,
