@@ -24,6 +24,8 @@
 		71787B3E241C26FA00D25F88 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787B3D241C26FA00D25F88 /* OrderView.swift */; };
 		71787B42241C2A6700D25F88 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787B41241C2A6700D25F88 /* CheckoutView.swift */; };
 		71787BBC241EC6C000D25F88 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71787BBB241EC6C000D25F88 /* MenuView.swift */; };
+		71787BC0241EC8BC00D25F88 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71787BBF241EC8BC00D25F88 /* README.md */; };
+		71787BC2241EC94400D25F88 /* appview.png in Resources */ = {isa = PBXBuildFile; fileRef = 71787BC1241EC94400D25F88 /* appview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		71787B3D241C26FA00D25F88 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		71787B41241C2A6700D25F88 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		71787BBB241EC6C000D25F88 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		71787BBF241EC8BC00D25F88 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71787BC1241EC94400D25F88 /* appview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		7125CF7A241AB10D00CDB1A1 = {
 			isa = PBXGroup;
 			children = (
+				71787BBF241EC8BC00D25F88 /* README.md */,
+				71787BC1241EC94400D25F88 /* appview.png */,
 				7125CF85241AB10D00CDB1A1 /* iDine */,
 				7125CF9C241AB11000CDB1A1 /* iDineTests */,
 				7125CFA7241AB11000CDB1A1 /* iDineUITests */,
@@ -267,7 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71787BC0241EC8BC00D25F88 /* README.md in Resources */,
 				7125CF93241AB11000CDB1A1 /* LaunchScreen.storyboard in Resources */,
+				71787BC2241EC94400D25F88 /* appview.png in Resources */,
 				7125CF90241AB11000CDB1A1 /* Preview Assets.xcassets in Resources */,
 				7125CFBD241AB19E00CDB1A1 /* menu.json in Resources */,
 				7125CF8D241AB11000CDB1A1 /* Assets.xcassets in Resources */,
